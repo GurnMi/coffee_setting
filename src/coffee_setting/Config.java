@@ -3,7 +3,7 @@ package coffee_setting;
 public class Config {
 	public static final String DB_NAME = "coffee_project";
 
-	public static final String[] TABLE_NAME = { "menu", "cInput"};
+	public static final String[] TABLE_NAME = { "menu", "cInput", "cOutput"};
 
 	private static final String USER_DIR = System.getProperty("user.dir") + "\\";
 
